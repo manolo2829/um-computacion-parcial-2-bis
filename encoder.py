@@ -27,5 +27,4 @@ class Encoder:
             for x in text[i]:
                 text_list[x-1] = i
         str_text = "".join(text_list)
-        print(str_text)
         return str_text
